@@ -1,7 +1,7 @@
 import sequelize from "../../db/config.js";
 import { DataTypes } from "sequelize";
 
-const SaleModel = sequelize.define(
+const saleModel = sequelize.define(
   'Sale',
     {
         totalAmount: {
@@ -11,4 +11,4 @@ const SaleModel = sequelize.define(
     }
 );
 
-export default SaleModel;
+export default saleModel;
